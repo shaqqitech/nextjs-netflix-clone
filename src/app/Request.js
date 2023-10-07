@@ -1,4 +1,4 @@
-const key = "e19b0b3b5352d0c8b350a65575d08ccc"
+const key = process.env.MY_API_KEY
 
 const request = {
     requestTopRated: `https://api.themoviedb.org/3/tv/top_rated?api_key=${key}&language=en-US&page=1`,
